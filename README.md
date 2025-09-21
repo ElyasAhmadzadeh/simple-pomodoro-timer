@@ -1,1 +1,3 @@
 # simple-pomodoro-timer
+
+just a simple pomodoro timer for deepworking...
