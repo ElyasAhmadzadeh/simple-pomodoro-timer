@@ -9,40 +9,46 @@
 
     <title>pomodoro timer</title>
 </head>
-<body>
-<header  class="main_header">
-    <h1 class="header_txt">Pomodoro Timer</h1>
-</header>
-<main class="main_container">
-    <section class="timer">
-        <section class="timer_choose">
-            <div class="work_session">Work Session</div>
-            <div class="short_break">Short Break</div>
-            <div class="long_break">Long Break</div>
-            <div class="selected_container"></div>
-        </section>
-        <section class="timer_display">
-            <span class="minute_ten">2</span>
-            <span class="minute_one">5</span>
-            :
-            <span class="second_ten">0</span>
-            <span class="second_one">0</span>
-        </section>
-    </section>
-    <section class="timer_buttons">
-        <button class="play_timer"><i class="fa fa-play" aria-hidden="true"></i></button>
-        <button class="reset_timer"><i class="fa fa-undo" aria-hidden="true"></i></button>
-        <button class="next_session"><i class="fa fa-fast-forward" aria-hidden="true"></i></button>
-        <span class="session_count">1</span>
-    </section>
-    <section class="history">
-        <ul class="done_sessions">
 
-        </ul>
-    </section>
-</main>
+<body class="body">
+    <header class="main_header">
+        <h1 class="header_txt">Pomodoro Timer</h1>
+        <!-- <button class="dark-mode-btn" type="button"><i class="fa fa-moon-o" aria-hidden="true"></i></button> -->
+    </header>
+    <main class="main_container">
+        <section class="timer">
+            <section class="timer_choose">
+                <div class="work_session">Work Session</div>
+                <div class="short_break">Short Break</div>
+                <div class="long_break">Long Break</div>
+                <div class="selected_container"></div>
+            </section>
+            <section class="timer_display work">
+                <span class="minute_ten">2</span>
+                <span class="minute_one">5</span>
+                :
+                <span class="second_ten">0</span>
+                <span class="second_one">0</span>
+            </section>
+        </section>
+        <section class="timer_buttons">
+            <button class="timer_button play_timer"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="reset_timer"><i class="fa fa-undo" aria-hidden="true"></i></button>
+            <button class="next_session"><i class="fa fa-fast-forward" aria-hidden="true"></i></button>
+            <span class="session_count">1</span>
+        </section>
+        <section class="history">
+            <ul class="done_sessions">
+                <li class="history_item">
+                    <div class="begin_time"></div>
+                    <div class="session_number"></div>
+                    <div class="status"></div>
+                </li>
+            </ul>
+        </section>
+    </main>
 
-<footer></footer>
+    <footer></footer>
 </body>
 <script src="pomodoro.js"></script>
 
