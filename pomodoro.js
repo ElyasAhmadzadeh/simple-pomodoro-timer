@@ -84,7 +84,7 @@ function playTimer() {
 
 
 
-        }, 1);
+        }, 1000);
     }
     else {
         timer_button.innerHTML = `<i class="fa fa-play" aria-hidden="true"></i>`;
