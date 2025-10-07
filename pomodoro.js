@@ -12,9 +12,9 @@ const reset_btn = document.querySelector(".reset_timer");
 const timer_display = document.querySelector(".timer_display");
 const next_session_btn = document.querySelector(".next_session");
 const session_list = document.querySelector(".done_sessions");
+const alarmSound = document.querySelector("#alarm");
 let break_counter = 0;
 let seconds, minutes_counter = 0;
-
 
 
 function playTimer() {
@@ -45,6 +45,7 @@ function playTimer() {
                 else {
 
                     clearInterval(seconds);
+                    alarmSound.play();
                     if (minutes_counter == 25) {
                         timeEnded();
                         if ((+session_count.textContent % 4) - 1 != 0) {

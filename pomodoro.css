@@ -20,7 +20,7 @@
 } */
 
 .main_header {
-    width: 500px;
+    width: 600px;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@
 
 
 .main_container {
-    width: 750px;
+    width: 850px;
     height: 1000px;
     margin: 10px auto;
     display: flex;
@@ -96,7 +96,7 @@
 }
 
 .timer {
-    width: 550px;
+    width: 650px;
     height: 300px;
     border: 1px solid;
     border-radius: 10px;
@@ -146,7 +146,7 @@
 .work_session,
 .short_break,
 .long_break {
-    width: 166px;
+    width: 196px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -155,7 +155,7 @@
 }
 
 .selected_container {
-    width: 140px;
+    width: 170px;
     height: 35px;
     z-index: 1;
     position: absolute;
@@ -198,7 +198,7 @@
 .second_one,
 .second_ten {
     display: inline-block;
-    width: 100px;
+    width: 125px;
     height: 100px;
     background-color: rgba(255, 0, 0, .5);
     color: white;
@@ -206,7 +206,7 @@
     margin: 0 5px;
     font-size: 70px;
     font-weight: 700;
-    padding: 0 30px;
+    padding: 0 40px;
     cursor: default;
 }
 
@@ -217,8 +217,8 @@
 
 
 .timer_buttons {
-    width: 550px;
-    height: 55px;
+    width: 650px;
+    height: 65px;
     border: 1px solid;
     border-radius: 10px;
     margin: 20px auto;
@@ -257,7 +257,7 @@
 .timer_button,
 .reset_timer,
 .next_session {
-    width: 70px;
+    width:85px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -277,7 +277,7 @@
 }
 
 .session_count {
-    width: 50px;
+    width: 70px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -295,7 +295,7 @@
 
 
 .history {
-    width: 550px;
+    width: 650px;
     height: 575px;
     border: 1px solid;
     border-radius: 10px;
