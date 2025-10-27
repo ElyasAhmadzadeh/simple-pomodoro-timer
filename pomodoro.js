@@ -182,7 +182,7 @@ function containerOnWork() {
     minutes_counter = 0;
 }
 function containerOnShortBreak() {
-    container.style.left = "182px";
+    container.style.left = "210px";
     minute_one.textContent = "5";
     minute_ten.textContent = "0";
     second_ten.textContent = "0";
@@ -198,7 +198,7 @@ function containerOnShortBreak() {
     minutes_counter = 0;
 }
 function containerOnLongBreak() {
-    container.style.left = "348px";
+    container.style.left = "405px";
     minute_ten.textContent = "1";
     minute_one.textContent = "5";
     second_ten.textContent = "0";
